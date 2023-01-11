@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b1a7ed-e2be-45f4-8612-678b4a9283ba" name="Changes" comment="Created a simple file creator">
-      <change afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
+    <list default="true" id="27b1a7ed-e2be-45f4-8612-678b4a9283ba" name="Changes" comment="Created a simple file reader">
+      <change afterPath="$PROJECT_DIR$/src/FileModifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670836109186</updated>
       <workItem from="1670836110610" duration="3815000" />
-      <workItem from="1671022971092" duration="1234000" />
+      <workItem from="1671022971092" duration="1473000" />
+      <workItem from="1673441166706" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="Created a simple file creator">
       <created>1670839455143</created>
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670839848202</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created a simple file reader">
+      <created>1671024406765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671024406765</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a simple file creator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a simple file creator" />
+    <MESSAGE value="Created a simple file reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a simple file reader" />
   </component>
 </project>
