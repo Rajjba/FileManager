@@ -35,12 +35,13 @@ public class FileModifier {
                     BufferedReader reader3 = new BufferedReader(new InputStreamReader(System.in));
                     System.out.println("Enter new line: ");
                     String newLine = reader3.readLine();
-                    BufferedWriter writer1 = new BufferedWriter(new FileWriter(fileName));
-                    /* this "add a new line" doesnt work exactly right yet. */
+                    BufferedWriter writer1 = new BufferedWriter(new FileWriter(fileName, true));
                     writer1.newLine();
                     writer1.write(newLine);
                     writer1.close();
                     System.out.println("Successfully added a line to the file.");
+
+                    new ReadFile();
 
             } else if (Objects.equals(answer1, "3")) {
                 System.out.println("ok, no mods");
